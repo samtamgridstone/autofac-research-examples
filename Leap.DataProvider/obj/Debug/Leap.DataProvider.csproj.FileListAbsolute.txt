@@ -1,0 +1,8 @@
+C:\Documents\Projects\Autofac-Research\AutofacResearch\Leap.DataProvider\bin\Debug\Leap.DataProvider.dll
+C:\Documents\Projects\Autofac-Research\AutofacResearch\Leap.DataProvider\bin\Debug\Leap.DataProvider.pdb
+C:\Documents\Projects\Autofac-Research\AutofacResearch\Leap.DataProvider\bin\Debug\AutofacResearch.Core.dll
+C:\Documents\Projects\Autofac-Research\AutofacResearch\Leap.DataProvider\bin\Debug\AutofacResearch.Core.pdb
+C:\Documents\Projects\Autofac-Research\AutofacResearch\Leap.DataProvider\obj\Debug\Leap.DataProvider.csprojResolveAssemblyReference.cache
+C:\Documents\Projects\Autofac-Research\AutofacResearch\Leap.DataProvider\obj\Debug\Leap.DataProvider.csproj.CoreCompileInputs.cache
+C:\Documents\Projects\Autofac-Research\AutofacResearch\Leap.DataProvider\obj\Debug\Leap.DataProvider.dll
+C:\Documents\Projects\Autofac-Research\AutofacResearch\Leap.DataProvider\obj\Debug\Leap.DataProvider.pdb

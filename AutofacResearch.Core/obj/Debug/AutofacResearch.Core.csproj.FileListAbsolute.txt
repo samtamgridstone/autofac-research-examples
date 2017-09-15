@@ -1,0 +1,5 @@
+C:\Documents\Projects\Autofac-Research\AutofacResearch\AutofacResearch.Core\bin\Debug\AutofacResearch.Core.dll
+C:\Documents\Projects\Autofac-Research\AutofacResearch\AutofacResearch.Core\bin\Debug\AutofacResearch.Core.pdb
+C:\Documents\Projects\Autofac-Research\AutofacResearch\AutofacResearch.Core\obj\Debug\AutofacResearch.Core.csproj.CoreCompileInputs.cache
+C:\Documents\Projects\Autofac-Research\AutofacResearch\AutofacResearch.Core\obj\Debug\AutofacResearch.Core.dll
+C:\Documents\Projects\Autofac-Research\AutofacResearch\AutofacResearch.Core\obj\Debug\AutofacResearch.Core.pdb

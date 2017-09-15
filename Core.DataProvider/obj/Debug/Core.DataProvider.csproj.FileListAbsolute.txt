@@ -1,0 +1,8 @@
+C:\Documents\Projects\Autofac-Research\AutofacResearch\Core.DataProvider\bin\Debug\Core.DataProvider.dll
+C:\Documents\Projects\Autofac-Research\AutofacResearch\Core.DataProvider\bin\Debug\Core.DataProvider.pdb
+C:\Documents\Projects\Autofac-Research\AutofacResearch\Core.DataProvider\bin\Debug\AutofacResearch.Core.dll
+C:\Documents\Projects\Autofac-Research\AutofacResearch\Core.DataProvider\bin\Debug\AutofacResearch.Core.pdb
+C:\Documents\Projects\Autofac-Research\AutofacResearch\Core.DataProvider\obj\Debug\Core.DataProvider.csprojResolveAssemblyReference.cache
+C:\Documents\Projects\Autofac-Research\AutofacResearch\Core.DataProvider\obj\Debug\Core.DataProvider.csproj.CoreCompileInputs.cache
+C:\Documents\Projects\Autofac-Research\AutofacResearch\Core.DataProvider\obj\Debug\Core.DataProvider.dll
+C:\Documents\Projects\Autofac-Research\AutofacResearch\Core.DataProvider\obj\Debug\Core.DataProvider.pdb
