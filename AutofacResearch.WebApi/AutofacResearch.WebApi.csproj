@@ -121,9 +121,11 @@
     <Compile Include="Controllers\DefaultWithNamed\DefaultFirstCorePersonController.cs" />
     <Compile Include="Controllers\DefaultWithNamed\DefaultSecondCoreController.cs" />
     <Compile Include="Controllers\Named\FirstCorePersonController.cs" />
+    <Compile Include="Controllers\Sourced\DataSourceController.cs" />
     <Compile Include="Controllers\Standard\StandardCorePersonController.cs" />
     <Compile Include="Controllers\DefaultWithNamed\DefaultCoreController.cs" />
     <Compile Include="Controllers\Named\SecondCorePersonController.cs" />
+    <Compile Include="Modules\DataProviderModule.cs" />
     <Compile Include="Modules\StandardModule.cs" />
     <Compile Include="Modules\NamedModules.cs" />
     <Compile Include="Modules\NamedWithDefaultsModule.cs" />
@@ -139,8 +141,18 @@
       <Project>{25bb23f9-2c90-464d-9685-66983aa036b5}</Project>
       <Name>Core.DataProvider</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Jump.DataProvider\Jump.DataProvider.csproj">
+      <Project>{2e33c1fd-a18d-4e33-b4ae-35292fabb65c}</Project>
+      <Name>Jump.DataProvider</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Leap.DataProvider\Leap.DataProvider.csproj">
+      <Project>{4c5029f7-9a97-450a-9e17-25b700a58783}</Project>
+      <Name>Leap.DataProvider</Name>
+    </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Controllers\Namespaced\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

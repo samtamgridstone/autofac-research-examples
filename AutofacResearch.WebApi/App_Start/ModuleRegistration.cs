@@ -7,9 +7,10 @@ namespace AutofacResearch.WebApi
     {
         public static void Register(ContainerBuilder builder)
         {
-            //builder.RegisterModule(new CoreModule());
+            //builder.RegisterModule(new StandardModule());
             //builder.RegisterModule(new NamedModules());
-            builder.RegisterModule(new NamedWithDefaultsModule());
+            //builder.RegisterModule(new NamedWithDefaultsModule());
+            builder.RegisterModule(new DataProviderModule());
         }
     }
 }

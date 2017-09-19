@@ -13,6 +13,7 @@ namespace AutofacResearch.WebApi.Controllers
         protected readonly IPersonService Service;
 
         protected BaseController(IPersonService personService) => Service = personService;
+        protected BaseController() { }
 
         [HttpGet]
         public string GetDataProvider()

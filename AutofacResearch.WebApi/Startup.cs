@@ -12,6 +12,8 @@ namespace AutofacResearch.WebApi
 {
     public class Startup
     {
+        public static IContainer Container;
+
         public void Configuration(IAppBuilder app)
         {
             // set up the autofac container
@@ -22,6 +24,7 @@ namespace AutofacResearch.WebApi
             RegisterModules(builder);
 
             var container = builder.Build();
+            Container = container;
             config.DependencyResolver = new AutofacWebApiDependencyResolver(container); // instantiate the dependency resolver  
 
             // Register the Autofac middleware FIRST, then the Autofac Web API middleware,

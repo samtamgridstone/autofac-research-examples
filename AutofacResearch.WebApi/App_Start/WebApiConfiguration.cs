@@ -1,4 +1,5 @@
 ﻿using System.Web.Http;
+using AutofacResearch.WebApi.Controllers.DefaultWithNamed;
 
 namespace AutofacResearch.WebApi
 {
@@ -6,9 +7,12 @@ namespace AutofacResearch.WebApi
     {
         public static void Register(HttpConfiguration config)
         {
+            // Attribute routing.
+            config.MapHttpAttributeRoutes();
+
             config.Routes.MapHttpRoute(
                 name: "AllRoute",
-                routeTemplate: "{controller}/{action}"
+                routeTemplate: "api/{controller}/{action}"
             );
         }
     }
